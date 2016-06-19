@@ -5,11 +5,17 @@
     <title>Java(script) Test</title>
 </head>
 <body>
-    <label for="ipInput">Type ip here</label>
+    <label for="ipInput">Type ip here (Logic written to convert ip to binary and then to ineger)</label>
     <input id="ipInput" type="text">
     <button id="convert" onClick="convert()">Convert</button>
 
     <p id="result"></p>
+
+    <label for="ipInput2">Type ip here (Converted easy way using parseInt() and toString())</label>
+    <input id="ipInput2" type="text">
+    <button id="convertEasy" onClick="convertEasy()">Convert</button>
+
+    <p id="result2"></p>
 
     <script src="./main.js"></script>
 </body>
